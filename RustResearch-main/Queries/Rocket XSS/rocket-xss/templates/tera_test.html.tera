@@ -1,0 +1,7 @@
+<html>
+<body>
+{{title}} 
+{{name}} <!-- safe output --!>
+{{ name | safe }} <!-- XSS output --!>
+</body>
+</html>

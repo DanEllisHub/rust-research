@@ -1,0 +1,9 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "0.5.0"
+tar = "0.4.40"
+zip = "1.2.3"

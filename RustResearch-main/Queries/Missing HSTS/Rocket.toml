@@ -1,0 +1,9 @@
+[default.tls]
+
+#################
+# https://stackoverflow.com/questions/71380276/confirguring-rocket-0-5-tls-with-no-ip-trrustcor-certification
+###################
+
+
+key = "C:\\Users\\orir\\OneDrive - Checkmarx\\Desktop\\SAST\\Rust\\rust-repo-march-updated\\RustResearch\\Queries\\Missing HSTS\\key.pem"
+certs = "C:\\Users\\orir\\OneDrive - Checkmarx\\Desktop\\SAST\\Rust\\rust-repo-march-updated\\RustResearch\\Queries\\Missing HSTS\\cert.pem"

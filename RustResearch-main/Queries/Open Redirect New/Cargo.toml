@@ -1,0 +1,15 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = "0.5.0-rc.3"
+tokio = { version = "1.33.0", features = ["full"] }
+
+
+# Switch between the reqwest dependencies statements below to solve the error.
+# Don't forget to comment the async reqwest code in main.rs
+reqwest = { version = "0.11.22", features = ["blocking"] }
+# reqwest = "0.11.22"
+

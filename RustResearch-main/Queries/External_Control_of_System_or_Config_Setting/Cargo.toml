@@ -1,0 +1,11 @@
+[package]
+name = "External_Control_of_System_or_Config_Setting"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+base64 = "0.22.1"
+config = "0.14.0"
+figment = "0.10.18"

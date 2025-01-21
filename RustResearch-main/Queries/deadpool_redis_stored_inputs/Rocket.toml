@@ -1,0 +1,2 @@
+[default.databases.cache-LVTEAUDO]
+url = "redis://blablalba.com:17407"
